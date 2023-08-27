@@ -4,20 +4,20 @@ Welcome to my portfolio website! This website showcases my educational backgroun
 
 ## Education
 
-- **[Vignan's Institute Of Information Technology]**, [Btech],
-  - [I was awarded an Academic Excellence Certificate for my performance during my first year of studies.]
+- **Vignan's Institute Of Information Technology**, Btech
+  - I was awarded an Academic Excellence Certificate for my performance during my first year of studies.
 - Completed senior secondary at Narayana Junior College
 - Completed secondary education at Little Scholors The Global High School
 
 ## Skills
 
-- **Programming Languages**: [C,Python]
-- **Web Development**: [HTML,CSS,PHP,Django]
+- **Programming Languages**: C,Python
+- **Web Development**: HTML,CSS,PHP,Django
 
 ## Internships
 
-**[Intvice Technologies Pvt Ltd]** - [Web Developer]
-   - [Date]: [15-05-2023] - [15-06-2023]
+**Intvice Technologies Pvt Ltd** - Web Developer
+   - Date: 15-05-2023 - 15-06-2023
    -During a virtual internship, I worked as a Django developer, where I undertook the following projects:
 
 1. **Hotel Management Project using Django**
@@ -59,14 +59,14 @@ These experiences provided me with valuable insights into software development, 
 ## Hobbies
 
 Outside of my academic and professional pursuits, I also have a range of hobbies and interests that I enjoy in my free time. Some of my hobbies include:
-- [Reading books]
-- [Listening to music]
-- [playing Chess]
+- Reading books
+- Listening to music
+- Playing Chess
 
 ## Contact Details
 
 Feel free to reach out to me if you have any questions, opportunities, or just want to connect. Here's how you can get in touch:
 
-- **Email**: [ambatikavitha12@gmail.com]
+- **Email**:ambatikavitha12@gmail.com
 
 Thank you for visiting my portfolio website! I hope you find the information here useful and get a better understanding of my background, skills, and interests.
