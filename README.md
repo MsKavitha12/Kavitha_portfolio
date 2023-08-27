@@ -12,8 +12,8 @@ Welcome to my portfolio website! This website showcases my educational backgroun
 ## Skills
 
 - **Programming Languages**: [C,Python]
-- **Web Development**: [Html,Css,php,Django]
-- 
+- **Web Development**: [HTML,CSS,PHP,Django]
+
 ## Internships
 
 **[Intvice Technologies Pvt Ltd]** - [Web Developer]
