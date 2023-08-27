@@ -18,7 +18,7 @@ Welcome to my portfolio website! This website showcases my educational backgroun
 
 **Intvice Technologies Pvt Ltd** - Web Developer
    - Date: 15-05-2023 - 15-06-2023
-   -During a virtual internship, I worked as a Django developer, where I undertook the following projects:
+   - During a virtual internship, I worked as a Django developer, where I undertook the following projects:
 
 1. **Hotel Management Project using Django**
    - Developed a comprehensive hotel management system utilizing the Django framework.
