@@ -8,7 +8,7 @@ Welcome to my portfolio website! This website showcases my educational backgroun
   - [I was awarded an Academic Excellence Certificate for my performance during my first year of studies.]
 - Completed senior secondary at Narayana Junior College
 - Completed secondary education at Little Scholors The Global High School
-- 
+
 ## Skills
 
 - **Programming Languages**: [C,Python]
