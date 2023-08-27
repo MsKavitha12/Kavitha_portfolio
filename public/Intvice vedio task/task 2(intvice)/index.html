@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Login Page</title>
+  <link rel="stylesheet" href="task.css">
+</head>
+<body >
+  <div id="login-container">
+    <h1>Login</h1>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div id="video-container" style="display: none;">
+    <video id="main-video" controls="controls autoplay">
+      <source src="./video 1 task.mp4" type="video/mp4">
+    </video>
+    <div id="question-overlay"></div>
+    <div id="question-container" style="display: none;">
+      <h2 id="question"></h2>
+      <button id="option-a"> Yes</button>
+      <button id="option-b"> No</button>
+    </div>
+  </div>
+
+  <script>
+    // JavaScript for handling login and video functionality
+    document.getElementById("login-form").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent form submission
+
+      // Perform login verification with dummy data
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+
+      // Check login credentials (dummy check)
+      if (username !="" && password != "") {
+        showVideoContainer();
+        document.getElementById("main-video").play();
+      } else {
+        alert("Invalid username or password");
+      }
+    });
+
+    // Function to show the video container and start the video after 1 minute
+    function showVideoContainer() {
+      document.getElementById("login-container").style.display = "none";
+      document.getElementById("video-container").style.display = "block";
+    
+    // for timining
+      var video = document.getElementById("main-video");
+      var qshown=false;
+      video.addEventListener("timeupdate", function() {
+        var currentTime = video.currentTime;
+         if (currentTime >= 60 && !qshown) {
+          video.pause();
+          showQuestion();
+           qshown=true;     
+          }
+       });
+      // Event listeners for answer buttons
+      document.getElementById("option-a").addEventListener("click", function() {
+        checkAnswer("a");
+      });
+      document.getElementById("option-b").addEventListener("click", function() {
+        checkAnswer("b");
+      });
+    }
+    // to display question
+    function showQuestion() {
+    document.getElementById("question-overlay").style.display = "block";
+    document.getElementById("question-container").style.display = "block";
+    document.getElementById("question").textContent = "Alpha is the best team";
+   }
+
+
+    // Function to check the selected answer
+    function checkAnswer(selectedOption) {
+      // Check the selected answer (dummy check)
+      if (selectedOption === "a") {
+         document.getElementById("main-video").play();
+         document.getElementById("question-overlay").style.display="none";
+         document.getElementById("question-container").style.display="none";
+      } else {
+        playDummyVideo2();
+        
+      }
+    }
+
+    // Function to play dummy video 2
+    function playDummyVideo2() {
+      document.getElementById("main-video").src = "./video 2 task.mp4";
+      document.getElementById("main-video").play();
+      document.getElementById("question-overlay").style.display="none";
+      document.getElementById("question-container").style.display="none";
+    }
+    document.getElementById("main-video").addEventListener("ended", function() {
+    document.getElementById("main-video").src = "./video 1 task.mp4";
+    document.getElementById("main-video").currentTime=60;
+    document.getElementById("main-video").play();
+    });
+
+   </script>
